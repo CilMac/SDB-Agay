@@ -108,6 +108,12 @@
     .print-note{display:block!important}
   }
   .print-note{display:none;font-size:13px;color:var(--muted)}
+  .cta-wrap{margin:4px 0 16px}
+  a.cta{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:12px;background:var(--accent);color:#fff;
+    font-size:18px;font-weight:700;text-decoration:none;box-shadow:0 2px 0 rgba(0,0,0,.18)}
+  a.cta:hover,a.cta:focus-visible{background:#174b72;outline:3px solid var(--accent-soft);outline-offset:2px}
+  .cta-sub{display:block;margin:6px 0 0;font-size:14px;color:var(--muted)}
+  @media print{.cta-wrap{display:none}}
 </style>
 </head>
 <body>
@@ -117,6 +123,10 @@
   <p class="eyebrow">Appartement d'Agay · rénovation de la salle de bains</p>
   <h1>La nouvelle salle de bains : où on en est</h1>
   <p class="lede">Récapitulatif du 5 octobre 2026. Ce document sert à en discuter ensemble avant de demander les devis.</p>
+  <div class="cta-wrap">
+    <a class="cta" href="maquette_sdb_V2_9oct.html" target="_blank" rel="noopener">&#9654; Voir la maquette 3D de la version 2 (9 octobre)</a>
+    <span class="cta-sub">Plan v6 : douche 80 x 120 sans porte, meuble à vasque, miroir lumineux.</span>
+  </div>
   <ul class="chips">
     <li><a href="#projet">Le projet</a></li>
     <li><a href="#plan">Le plan</a></li>
